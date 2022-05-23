@@ -1,0 +1,178 @@
+.header {
+    background-color: black;
+    border: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.navbar img{
+   height: 60px;
+   width: 60px;
+
+}
+
+.navbar a {
+ text-decoration: none;
+
+}
+
+.navbar p {
+    color: white;
+    margin-top: 20px;
+}
+
+#navbarNav a:hover{
+    color: gray;
+}
+
+.carousel-inner img{
+    width: auto;
+    height: 75vh;
+}
+
+#carouselExampleControls {
+    margin-bottom: 50px;
+}
+
+
+
+#first-caption {
+
+    top: 40%;
+    left: 55%;
+}
+
+#second-caption {
+
+    top: 40%;
+    right: 75%;
+
+}
+
+.shop {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+
+.product {
+    background-color: gray;
+    border: solid;
+    border-width: 5px;
+    border-color: white;
+    display: flex;
+    justify-content: center;   
+    height: 465px;  
+}
+
+.product a{
+    text-decoration: none;
+    color: white;
+}
+
+.product a:hover {
+    color: black;
+}
+
+
+.product img {
+    margin-top: 100px;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+
+.product h1 {
+    position: relative;
+    text-align: center;
+    bottom: 316px;
+    
+}
+
+.reviews {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+.testimonials p {
+    text-align: justify;
+}
+
+.client-name {
+    text-align: end !important;
+}
+
+.testimonials h3{
+    text-align: center;
+}
+
+
+footer {
+    background-color: gray;
+}
+
+#lastpart {
+    margin-bottom: -50px;
+}
+
+/* iphone page */
+
+.iphone {
+    background-color: black;   
+}
+
+.iphone-selection {
+
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 15px;
+    border-color: white;
+}
+
+
+.picture2 {
+    display: none;
+}
+.thumbnail:hover .picture1 {
+    display: none;
+}
+.thumbnail:hover .picture2 {
+    display: block;
+}
+
+/* about us */
+
+.about-us-text h2 {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+@media screen and (min-width: 1000px) {
+
+    #first-caption {
+        left: 63%;    
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    #first-caption {
+        top: 60%;    
+    }
+
+    #second-caption {
+        right: 65%;  
+        top: 60%; 
+    }    
+    
+    
+}
